@@ -5,38 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammad Waqas - Full Stack Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Mohammad Waqas</h1>
-        <p>Full Stack Developer | .NET Specialist | Open for New Opportunities</p>
+    <header class="hero">
+        <div class="container">
+            <h1>Mohammad Waqas</h1>
+            <p>Full Stack Developer | .NET Specialist | Open to New Opportunities</p>
+            <a href="#contact" class="btn-primary">Contact Me</a>
+        </div>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi! I'm Mohammad Waqas, a Full Stack Developer with 7+ years of experience specializing in .NET Core, SQL Server, and Angular. I'm passionate about creating scalable applications.</p>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hi! I'm Mohammad Waqas, a passionate Full Stack Developer with 7+ years of experience 
+                specializing in .NET Core, SQL Server, and Angular. I love crafting robust, scalable 
+                applications and solving challenging problems.
+            </p>
+        </div>
     </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li><strong>Software Developer at NAVTTC</strong> (2020-Present)</li>
-            <li><strong>Software Developer at E-strats</strong> (2017-2020)</li>
-            <li><strong>Software Developer at F-Sol</strong> (2016-2017)</li>
-        </ul>
+
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2>Experience</h2>
+            <ul class="timeline">
+                <li>
+                    <h3>Software Developer - NAVTTC</h3>
+                    <p>April 2020 – Present</p>
+                    <p>Worked on platforms like <a href="http://www.jobs.gov.pk" target="_blank">National Port NEXT</a>, 
+                        <a href="http://nsis.gov.pk" target="_blank">PMMS</a>, and <a href="http://svp.navttcgpv.pk" target="_blank">Takamol Skill Verification Program</a>.
+                    </p>
+                </li>
+                <li>
+                    <h3>Software Developer - E-strats</h3>
+                    <p>December 2017 – March 2020</p>
+                </li>
+                <li>
+                    <h3>Software Developer - F-Sol</h3>
+                    <p>April 2016 – September 2017</p>
+                </li>
+            </ul>
+        </div>
     </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>.NET Core</li>
-            <li>C#</li>
-            <li>SQL Server</li>
-            <li>Angular</li>
-            <li>JavaScript, HTML5, CSS3, Bootstrap, Tailwind</li>
-        </ul>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <span>.NET Core</span>
+                <span>Entity Framework</span>
+                <span>C#</span>
+                <span>SQL Server</span>
+                <span>Angular</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+                <span>Tailwind CSS</span>
+            </div>
+        </div>
     </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:mohammadwaqas.cs@gmail.com">mohammadwaqas.cs@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/mohammadwaqasshaida">mohammadwaqasshaida</a></p>
+
+    <section id="contact" class="section bg-dark">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:mohammadwaqas.cs@gmail.com">mohammadwaqas.cs@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mohammadwaqasshaida" target="_blank">mohammadwaqasshaida</a></p>
+        </div>
     </section>
+
+    <footer class="footer">
+        <p>© 2024 Mohammad Waqas. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
